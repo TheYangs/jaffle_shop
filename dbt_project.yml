@@ -24,3 +24,13 @@ models:
       materialized: table
       staging:
         materialized: view
+
+dispatch:
+  - macro_namespace: dbt_utils
+    search_order: [dbt_utils]
+
+
+# on-run-start: "{{ get_source_relation_lists2('dbt_alice') }}"
+# on-run-start: "{{ get_source_relation_lists('dbt_alice') }}"
+# on-run-start: "{{ log(get_source_tables('dbt_alice')) }}"
+# on-run-start: "{{ log(test_get_source_tables('dbt_alice')) }}"
