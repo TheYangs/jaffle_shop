@@ -1,10 +1,10 @@
-version: 2
+# version: 2
 
-sources:
-  # - name: jaffle_shop
-  - name: dbt_alice
-    description: jaffle_shop test
-    schema: dbt_alice
+# sources:
+#   # - name: jaffle_shop
+#   - name: dbt_alice
+#     description: jaffle_shop test
+#     schema: dbt_alice
     # tables:
     #   - name: raw_customers
     #   - name: raw_orders

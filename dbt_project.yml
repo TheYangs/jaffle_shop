@@ -34,3 +34,4 @@ dispatch:
 # on-run-start: "{{ get_source_relation_lists('dbt_alice') }}"
 # on-run-start: "{{ log(get_source_tables('dbt_alice')) }}"
 # on-run-start: "{{ log(test_get_source_tables('dbt_alice')) }}"
+# on-run-start: "{{ codegen.generate_source('dbt_alice') }}"
